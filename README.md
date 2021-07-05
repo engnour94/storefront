@@ -19,7 +19,10 @@ The application will power an online storefront that will allow our users to bro
 * Update quantities
 * Remove items from the cart
 * Show the cart in real-time on the UI
+* [Deployed site]()
 
+* **UML**
+![img](storeFront1.jpg)
 ### Phase 3: Live Data
 * Connect the application a live API
 * Persist changes to products based on cart activity.

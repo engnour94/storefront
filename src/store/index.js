@@ -8,11 +8,13 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 //Import the reducers 
 import productsReducer from "./products";
 import categoriesReducer from "./categories";
+import cartReducer from './cart'
 
 // combine them 
 let reducers = combineReducers({
   productsReducer,
-  categoriesReducer
+  categoriesReducer,
+  cartReducer
 })
 
 
