@@ -10,7 +10,7 @@ The application will power an online storefront that will allow our users to bro
 * Redux State Management
 * State managed in memory
 * Material UI Components & Styling
-* [Deployed link]()
+* [Deployed link](https://60e25ea94dd64e816e1ef334--musing-beaver-78c729.netlify.app/)
 * **UML**
 ![img](storeFront.jpg)
 
