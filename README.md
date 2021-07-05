@@ -3,6 +3,7 @@
 The application will power an online storefront that will allow our users to browse our product offerings by category, place items in their shopping cart, and check-out when they are ready to make their purchase
 
 * [Repo Link](https://github.com/engnour94/storefront)
+ * [Deployed site](https://60e3955b74fefb4f15200474--eloquent-feynman-19b515.netlify.app/)
 
 ## Development Process, Milestones
 ### Phase 1: Application Setup
@@ -19,7 +20,7 @@ The application will power an online storefront that will allow our users to bro
 * Update quantities
 * Remove items from the cart
 * Show the cart in real-time on the UI
-* [Deployed site]()
+* [Deployed site](https://60e3955b74fefb4f15200474--eloquent-feynman-19b515.netlify.app/)
 
 * **UML**
 ![img](storeFront1.jpg)
