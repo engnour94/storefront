@@ -34,7 +34,7 @@ function Products(props) {
   <div style={{
     'display': 'flex',
 	'flex-direction': 'row',
-	'flex-wrap': 'nowrap',
+	'flex-wrap': 'wrap',
 	'justify-content': 'space-around',
 	'align-items': 'flex-start',
 	'align-content': 'flex-start'}}> 
