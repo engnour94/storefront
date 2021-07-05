@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { activeCategory } from '../store/categories';
 import { filterProducts } from '../store/products';
-import { useEffect } from 'react';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
@@ -27,11 +26,6 @@ function Categories(props) {
     props.activeCategory(category);
   }
 
-  useEffect(() => {
-    props.filterProducts('FOOD');
-    props.activeCategory('FOOD');
-     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
   const classes = useStyles();
 
   return (
@@ -47,6 +41,11 @@ function Categories(props) {
     </div>
   );
 }
+
+const mapStateToProps = (state) => ({
+  productList: state.productsReducer,
+  category: state.categoriesReducer
+});
 const mapDispatchToProps = { activeCategory, filterProducts };
 
-export default connect(null, mapDispatchToProps)(Categories);
+export default connect(mapStateToProps, mapDispatchToProps)(Categories);

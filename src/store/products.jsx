@@ -55,8 +55,11 @@
       },
     ]
   };
-  
+
+
+  // Reducer
   export default function productsReducer(state = initialState, action) {
+    // category = payload
     let { type, category } = action;
   
     switch (type) {
@@ -74,6 +77,8 @@
     }
   }
   
+
+  // actions objects
   export const filterProducts = (category) => {
     return {
       type: 'FILTER_PRODUCTS',

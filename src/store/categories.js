@@ -12,11 +12,7 @@ let initialState = {
         description: 'Keep up to date with us!'
       }
     ],
-    activeCategory: {
-      normalizedName: 'FOOD',
-      displayName: 'FOOD',
-      description: 'Eat as much as you can'
-    }
+    activeCategory:{}
   };
   
   export default function categoriesReducer(state = initialState, action) {
